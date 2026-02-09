@@ -1,0 +1,104 @@
+Tolong buatkan program Java dan Python sederhana untuk mengelola data mahasiswa menggunakan array statis (array biasa) dengan kapasitas maksimal 10 data.
+
+Data yang disimpan cuma:
+
+NIM
+
+Nama
+
+Jangan pakai ArrayList, List, Dictionary, atau struktur data dinamis lainnya.
+Cukup pakai array biasa dan variabel count untuk nyimpen jumlah data yang sedang terisi.
+
+Program harus berbasis menu dan berjalan terus sampai user memilih keluar.
+
+Menu yang harus tersedia:
+
+Insert at beginning
+
+Insert at given position
+
+Insert at end
+
+Delete from beginning
+
+Delete given position
+
+Delete from end
+
+Delete first occurrence
+
+Show data
+
+Exit
+
+Aturan penting:
+
+Semua proses insert dan delete harus pakai pergeseran array manual (loop)
+
+Setiap tambah data → count bertambah
+
+Setiap hapus data → count berkurang
+
+Input dilakukan lewat console
+
+Program harus rapi dan mudah dipahami orang yang baru belajar
+
+Penjelasan fitur yang harus dibuat:
+
+Insert at beginning
+Data baru dimasukkan ke indeks 0, data lama digeser ke kanan.
+Jangan lupa cek kalau array sudah penuh.
+
+Insert at given position
+User memasukkan posisi data (sesuai indeks array).
+Data setelah posisi tersebut digeser ke kanan.
+Pastikan posisi valid dan array belum penuh.
+
+Insert at end
+Data dimasukkan di indeks terakhir (count).
+Cek dulu apakah array masih ada ruang.
+
+Delete from beginning
+Data pertama dihapus, lalu data lainnya digeser ke kiri.
+
+Delete given position
+Hapus data di posisi yang dipilih user, lalu geser data ke kiri.
+
+Delete from end
+Hapus data terakhir dengan mengurangi count.
+
+Delete first occurrence
+User memasukkan NIM.
+Program mencari dari data pertama dan menghapus data pertama yang cocok.
+Kalau NIM tidak ditemukan, tampilkan pesan.
+
+Show data
+Tampilkan semua data mahasiswa beserta nomor, NIM, dan nama.
+Kalau belum ada data, tampilkan pesan data kosong.
+
+Exit
+Program berhenti dengan pesan penutup.
+
+Catatan tambahan:
+
+Tangani kondisi:
+
+Array penuh saat insert
+
+Data kosong saat delete
+
+Posisi tidak valid
+
+Data tidak ditemukan
+
+Jangan pakai konsep yang ribet atau advanced
+
+Tambahkan komentar singkat biar gampang dipahami
+
+Output yang diharapkan:
+
+Source code Java lengkap & bisa langsung dijalankan
+
+Source code Python lengkap & bisa langsung dijalankan
+
+Semua menu 1–9 harus berfungsi dengan benar
